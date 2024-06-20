@@ -1,0 +1,46 @@
+/* Default styles for mobile-first design */
+
+/* Resetting default margin and setting font-family */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased; /* Ensures smooth fonts on WebKit browsers */
+  -moz-osx-font-smoothing: grayscale; /* Ensures smooth fonts on macOS */
+}
+
+/* Styling for the header */
+header {
+  background-color: #78d415; /* Green background color */
+  color: white; /* White text color */
+  padding: 10px 0; /* Padding top and bottom of 10px, 0 padding left and right */
+  text-align: center; /* Center-aligns text */
+}
+
+/* Styling for the main content area */
+main {
+  max-width: 800px; /* Limits the maximum width of main content to 800px */
+  margin: auto; /* Centers main content horizontally */
+  padding: 20px; /* Padding inside main content */
+}
+
+/* Styles for tablets and larger screens */
+@media (min-width: 600px) {
+  header {
+    padding: 20px 0; /* Increases header padding on larger screens */
+  }
+
+  main {
+    padding: 30px; /* Increases padding inside main content on tablets and larger screens */
+  }
+}
+
+/* Styles for desktop and larger screens */
+@media (min-width: 992px) {
+  header {
+    padding: 30px 0; /* Further increases header padding on desktop and larger screens */
+  }
+
+  main {
+    padding: 40px; /* Further increases padding inside main content on desktop and larger screens */
+  }
+}

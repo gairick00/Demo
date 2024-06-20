@@ -1,0 +1,8 @@
+@media (max-width: 600px) {
+  /* Media query targeting screens up to 600px wide */
+
+  input {
+    /* Styling for input elements within this media query */
+    width: 80%; /* Input width set to 80% of its container's width */
+  }
+}
